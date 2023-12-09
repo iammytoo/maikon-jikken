@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="BRDV5h4eRpOFiIWGtyze" name="Page-1">
-        <mxGraphModel dx="2101" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1475" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -178,7 +178,7 @@
                 <mxCell id="49" value="BC" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="620" y="1530" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="51" value="" style="edgeStyle=none;html=1;" parent="1" source="53" edge="1">
+                <mxCell id="51" value="Yes" style="edgeStyle=none;html=1;" parent="1" source="53" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="1620" y="1650" as="targetPoint"/>
                     </mxGeometry>
@@ -353,7 +353,7 @@
                 <mxCell id="115" value="ADD ACC, (18h)" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="1055.02" y="2370" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="116" value="ST ACC,(028h)" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                <mxCell id="116" value="ST ACC,(28h)" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="1055.02" y="2640" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="117" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="118" target="116" edge="1">
@@ -405,7 +405,7 @@
                 <mxCell id="143" value="" style="edgeStyle=none;html=1;" parent="1" source="133" target="142" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="133" value="BNO NO1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                <mxCell id="133" value="BNO" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="420" y="2040" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="137" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="84" target="32" edge="1">
@@ -476,7 +476,7 @@
                 </mxCell>
                 <mxCell id="153" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="152" vertex="1" connectable="0">
                     <mxGeometry x="-0.9122" relative="1" as="geometry">
-                        <mxPoint as="offset"/>
+                        <mxPoint y="113" as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="154" value="HLT" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
@@ -485,8 +485,8 @@
                 <mxCell id="157" value="IXに01hを加えた結果をIXに格納する。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-20" y="2065" width="260" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="158" value="ACCに(18h)を加えた結果をACCに格納する。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="370" y="2385" width="260" height="30" as="geometry"/>
+                <mxCell id="158" value="ACCに(19h)を加えた結果をACCに格納する。(オーバーフローが生じた場合はCFが立つ)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="740" y="1805" width="260" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="159" value="ACCに(18h)を加えた結果をACCに格納する。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="800" y="2385" width="260" height="30" as="geometry"/>
@@ -503,8 +503,8 @@
                 <mxCell id="179" value="ACCにメモリの0番地をロード" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="460" y="315" width="190" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="180" value="ACCに1を加算。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="500" y="415" width="120" height="30" as="geometry"/>
+                <mxCell id="180" value="ACCに1を加算。&lt;br&gt;(オーバーフローした場合はCFがたつ)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="410" width="230" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="181" value="ロードした値を19番地に保存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="620" y="635" width="180" height="30" as="geometry"/>
@@ -521,29 +521,92 @@
                 <mxCell id="185" value="ACCの値を9番地に保存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="636" y="1035" width="150" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="186" value="9番地の値をACCにロード" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="186" value="9番地の値をACCにロード" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="630" y="1135" width="160" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="187" value="ACCと0番地の値を比較" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="187" value="ACCと0番地の値を比較" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="636" y="1235" width="150" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="188" value="29番地の値をACCにロード" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="188" value="29番地の値をACCにロード" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="755" y="1665" width="170" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="189" value="28番地の値をACCにロード" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="189" value="28番地の値をACCにロード" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="885.02" y="2245" width="170" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="190" value="28番地の値をACCにロード" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="190" value="28番地の値をACCにロード" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="450" y="2245" width="170" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="191" value="18番地の値をACCにロード" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="191" value="18番地の値をACCにロード" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1800" y="2375" width="170" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="192" value="19番地の値をACCにロード" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="192" value="19番地の値をACCにロード" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1680" y="1655" width="170" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="193" value="0番地の値をIXにロード" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="193" value="0番地の値をIXにロード" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="260" y="1645" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="195" value="(IX+28)番地の値をACCにロード" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="1770" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="198" value="ACCに(18h)を加えた結果をACCに格納する。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="2395" width="260" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="199" value="ACCに80を加えた結果をACCに格納する。(オーバーフローが生じた場合はCFが立つ)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1680" y="1795" width="260" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="200" value="CFが立っていないか？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="500" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="201" value="比較結果が0か？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="505" y="1320" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="202" value="右に1bitシフト(最上位bitは0で埋める)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="730" y="1345" width="230" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="203" value="ACCの値を9番地にストア" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="1445" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="204" value="CFが立っているか？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="715" y="1530" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="205" value="CFが立っているか？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="1920" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="206" value="ACCの値を29番地にストア" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="811" y="2105" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="208" value="ACCの値を28番地にストア" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="2525" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="209" value="ACCの値を28番地にストア" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="890" y="2655" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="210" value="出力がないか？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="505" y="2040" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="211" value="常にYes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1640" y="1530" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="212" value="CFが立っているか？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1650" y="1910" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="213" value="ACCの値を28番地にストア" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1815" y="2795" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="214" value="ACCを左に1bitシフト&lt;br&gt;(最下位bitは0で埋める)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1755" y="2095" width="260" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="215" value="ACCを19番地にストア" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1755" y="2235" width="260" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="217" value="ACCを左に1bitシフト&lt;br&gt;(最下位bitは0で埋める)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1770" y="2655" width="260" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="218" value="IXと1を比較" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="2205" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="219" value="比較結果が0以下か？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="2320" width="140" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
